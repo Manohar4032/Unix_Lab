@@ -1,0 +1,38 @@
+I	: Insert mode
+ESC 	: Go to command mode from Insert mode 
+		COMMANDS IN COMMAND MODE
+x	:
+u	:
+CTRL+R	: Redo
+A	: Insert text at the end
+:wq	: Save and EXIT
+:ql	: Trash all changes
+dw 	: Delete word
+3e	: Move the cursor to 3rd line
+0	: Move to the start of the line 
+d2w	: Delete 2 words
+dd	: Delete line
+p	: Paste previously deleted text
+r	: Replace (eg. re)
+ce 	: Delete all texts from the cursor in a line
+G	: Move to the bottom of the file
+gg	: Move to the start of the file
+%	: Find matching (brackets)
+:s	: To substitute new for old
+/	: Backward Search
+?	: Forward search
+:l	: to run Shell commands like ldir,:lls
+:w	: Save File
+v	: Visual mode 
+:r	: Filename will inser all the contents of the file
+R	: Replace more than one charector
+y	: Operator to copy text in visual mode
+yw	: Copy one word
+o	: Open a line below cursor
+O	: Open a line above the cursor
+a	: Insert text after cursor
+A	: Insert text after end of the line
+e	: Command moves to end of the word
+y	: Copy text, Paste with P
+R	: Enter replace mode untill ESC is pressed
+CTRL+w 	: To jump from one window to another
