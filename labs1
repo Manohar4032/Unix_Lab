@@ -36,3 +36,5 @@ e	: Command moves to end of the word
 y	: Copy text, Paste with P
 R	: Enter replace mode untill ESC is pressed
 CTRL+w 	: To jump from one window to another
+:g/pat1/s//pat2/g        : replace every occurrence of pattern1 (pat1) with
+pat2
