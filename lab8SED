@@ -14,3 +14,10 @@ To print all the lines which contain the word Student
 
 sed 's/k/m/g' filename
 Replaces letter k with m in that file
+
+
+
+sed '1i\ (enter)
+>line 1\(backward slash is to write in next line)
+>line2
+>' filename(input these lines in the file )
