@@ -11,3 +11,6 @@ To print selective lines
 
 sed -n '/Student/p' filename
 To print all the lines which contain the word Student
+
+sed 's/k/m/g' filename
+Replaces letter k with m in that file
