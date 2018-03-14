@@ -1,0 +1,17 @@
+1)Delete blank space using awk
+  awk -F "|" '!(/ /)' lab11.lst
+
+2)Print only the odd lines of a file
+   awk NR%2==1 lab11.lst
+   
+3)Print last line using awk
+  awk -F "|" 'END{print}' lab11.lst 
+  
+Write equavilant command for these commands
+4)head -n 5 filename
+  awk -F 'NR==1, NR==5{print}' lab11.lst
+  
+  5)sed -n '5,10p' filename
+  awk -F "|" 'NR==5,NR==10 {print}' lab11.lst
+  
+  
