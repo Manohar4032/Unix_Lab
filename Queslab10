@@ -1,0 +1,12 @@
+1)Display employee details whose designation is Manager
+    sed -n '/manager/p' lab10emp.csv
+    
+2)Display whose name is in 1/2
+    sed -n '1,2p' lab10emp.csv
+  
+3)Display salery which starts with 2
+  sed -n '/2..../p' lab10emp.csv 
+
+
+4)From line 1 to 5 if manager replace with director
+  sed -n '1,5p' lab10emp.csv | sed 's/manager/director/g'
